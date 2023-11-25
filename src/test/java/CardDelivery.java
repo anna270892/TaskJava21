@@ -1,11 +1,11 @@
 import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.*;
@@ -16,6 +16,8 @@ public class CardDelivery {
     void setUpp() {
         open("http://localhost:7777/");
     }
+
+    //Task №1
 
     //Отправка формы с валидными данными + дата с точками
     @Test
@@ -253,5 +255,18 @@ public class CardDelivery {
         $("[data-test-id='agreement'] .checkbox__box").click();
         $(".button.button_view_extra").click();
         $("[data-test-id='phone'].input_invalid .input__sub").shouldHave(Condition.text("Телефон указан неверно. Должно быть 11 цифр, например, +79012345678."));
+    }
+
+    //Task №2
+    @Test
+    void selectionFromDropdownList() {
+        $("[data-test-id='city'] input").setValue("Мо");
+        SelenideElement moscow = $$(".menu .menu-item__control").find(Condition.text("Москва"));
+
+        if (moscow != null) {
+            moscow.click();
+        } else {
+            System.out.println("Элемент 'Москва' не найден");
+        }
     }
 }
