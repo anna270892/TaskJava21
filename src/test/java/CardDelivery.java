@@ -27,8 +27,8 @@ public class CardDelivery {
         $("[data-test-id='date'] .input__control").sendKeys(Keys.DELETE);
         LocalDate currentDate = LocalDate.now(); // Получить текущую дату
         LocalDate futureDate = currentDate.plusDays(3); // Добавить дни к текущей дате
-        String Date = futureDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")); // Форматировать дату в строку в формате
-        $("[data-test-id='date'] .input__control").setValue(Date);
+        String date = futureDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")); // Форматировать дату в строку в формате
+        $("[data-test-id='date'] .input__control").setValue(date);
         $("[data-test-id='name'] .input__control").setValue("Анна Кочергина-Иванова");
         $("[data-test-id='phone'] input").setValue("+79500060445");
         $("[data-test-id='agreement'] .checkbox__box").click();
@@ -44,8 +44,8 @@ public class CardDelivery {
         $("[data-test-id='date'] .input__control").sendKeys(Keys.DELETE);
         LocalDate currentDate = LocalDate.now(); // Получить текущую дату
         LocalDate futureDate = currentDate.plusDays(4); // Добавить дни к текущей дате
-        String Date = futureDate.format(DateTimeFormatter.ofPattern("ddMMyyyy")); // Форматировать дату в строку в формате
-        $("[data-test-id='date'] .input__control").setValue(Date);
+        String date = futureDate.format(DateTimeFormatter.ofPattern("ddMMyyyy")); // Форматировать дату в строку в формате
+        $("[data-test-id='date'] .input__control").setValue(date);
         $("[data-test-id='name'] .input__control").setValue("Анна Кочергина-Иванова");
         $("[data-test-id='phone'] input").setValue("+79500060445");
         $("[data-test-id='agreement'] .checkbox__box").click();
@@ -61,8 +61,8 @@ public class CardDelivery {
         $("[data-test-id='date'] .input__control").sendKeys(Keys.DELETE);
         LocalDate currentDate = LocalDate.now(); // Получить текущую дату
         LocalDate futureDate = currentDate.plusDays(5); // Добавить дни к текущей дате
-        String Date = futureDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")); // Форматировать дату в строку в формате
-        $("[data-test-id='date'] .input__control").setValue(Date);
+        String date = futureDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")); // Форматировать дату в строку в формате
+        $("[data-test-id='date'] .input__control").setValue(date);
         $("[data-test-id='name'] .input__control").setValue("Анна Кочергина-Иванова");
         $("[data-test-id='phone'] input").setValue("+79500060445");
         $(".button.button_view_extra").click();
@@ -104,8 +104,8 @@ public class CardDelivery {
         $("[data-test-id='date'] .input__control").sendKeys(Keys.DELETE);
         LocalDate currentDate = LocalDate.now(); // Получить текущую дату
         LocalDate futureDate = currentDate.plusDays(6); // Добавить дни к текущей дате
-        String Date = futureDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")); // Форматировать дату в строку в формате
-        $("[data-test-id='date'] .input__control").setValue(Date);
+        String date = futureDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")); // Форматировать дату в строку в формате
+        $("[data-test-id='date'] .input__control").setValue(date);
         $("[data-test-id='name'] .input__control").setValue("Анна Кочергина-Иванова");
         $("[data-test-id='phone'] input").setValue("+79500060445");
         $("[data-test-id='agreement'] .checkbox__box").click();
@@ -121,8 +121,8 @@ public class CardDelivery {
         $("[data-test-id='date'] .input__control").sendKeys(Keys.DELETE);
         LocalDate currentDate = LocalDate.now(); // Получить текущую дату
         LocalDate futureDate = currentDate.plusDays(7); // Добавить дни к текущей дате
-        String Date = futureDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")); // Форматировать дату в строку в формате
-        $("[data-test-id='date'] .input__control").setValue(Date);
+        String date = futureDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")); // Форматировать дату в строку в формате
+        $("[data-test-id='date'] .input__control").setValue(date);
         $("[data-test-id='name'] .input__control").setValue("Анна Кочергина-Иванова");
         $("[data-test-id='phone'] input").setValue("+79500060445");
         $("[data-test-id='agreement'] .checkbox__box").click();
@@ -138,8 +138,8 @@ public class CardDelivery {
         $("[data-test-id='date'] .input__control").sendKeys(Keys.DELETE);
         LocalDate currentDate = LocalDate.now(); // Получить текущую дату
         LocalDate futureDate = currentDate.plusDays(50); // Добавить дни к текущей дате
-        String Date = futureDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")); // Форматировать дату в строку в формате
-        $("[data-test-id='date'] .input__control").setValue(Date);
+        String date = futureDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")); // Форматировать дату в строку в формате
+        $("[data-test-id='date'] .input__control").setValue(date);
         $("[data-test-id='name'] .input__control").setValue("Анна Кочергина-Иванова");
         $("[data-test-id='phone'] input").setValue("+79500060445");
         $("[data-test-id='agreement'] .checkbox__box").click();
@@ -197,8 +197,8 @@ public class CardDelivery {
         $("[data-test-id='date'] .input__control").sendKeys(Keys.DELETE);
         LocalDate currentDate = LocalDate.now(); // Получить текущую дату
         LocalDate futureDate = currentDate.plusDays(100); // Добавить дни к текущей дате
-        String Date = futureDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")); // Форматировать дату в строку в формате
-        $("[data-test-id='date'] .input__control").setValue(Date);
+        String date = futureDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")); // Форматировать дату в строку в формате
+        $("[data-test-id='date'] .input__control").setValue(date);
         $("[data-test-id='name'] .input__control").setValue("");
         $("[data-test-id='phone'] input").setValue("+79500060445");
         $("[data-test-id='agreement'] .checkbox__box").click();
@@ -214,8 +214,8 @@ public class CardDelivery {
         $("[data-test-id='date'] .input__control").sendKeys(Keys.DELETE);
         LocalDate currentDate = LocalDate.now(); // Получить текущую дату
         LocalDate futureDate = currentDate.plusDays(200); // Добавить дни к текущей дате
-        String Date = futureDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")); // Форматировать дату в строку в формате
-        $("[data-test-id='date'] .input__control").setValue(Date);
+        String date = futureDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")); // Форматировать дату в строку в формате
+        $("[data-test-id='date'] .input__control").setValue(date);
         $("[data-test-id='name'] .input__control").setValue("QWERty");
         $("[data-test-id='phone'] input").setValue("+79500060445");
         $("[data-test-id='agreement'] .checkbox__box").click();
@@ -231,8 +231,8 @@ public class CardDelivery {
         $("[data-test-id='date'] .input__control").sendKeys(Keys.DELETE);
         LocalDate currentDate = LocalDate.now(); // Получить текущую дату
         LocalDate futureDate = currentDate.plusDays(31); // Добавить дни к текущей дате
-        String Date = futureDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")); // Форматировать дату в строку в формате
-        $("[data-test-id='date'] .input__control").setValue(Date);
+        String date = futureDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")); // Форматировать дату в строку в формате
+        $("[data-test-id='date'] .input__control").setValue(date);
         $("[data-test-id='name'] .input__control").setValue("Анна Кочергина-Иванова-Петрова");
         $("[data-test-id='phone'] input").setValue("");
         $("[data-test-id='agreement'] .checkbox__box").click();
@@ -248,8 +248,8 @@ public class CardDelivery {
         $("[data-test-id='date'] .input__control").sendKeys(Keys.DELETE);
         LocalDate currentDate = LocalDate.now(); // Получить текущую дату
         LocalDate futureDate = currentDate.plusDays(35); // Добавить дни к текущей дате
-        String Date = futureDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")); // Форматировать дату в строку в формате
-        $("[data-test-id='date'] .input__control").setValue(Date);
+        String date = futureDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")); // Форматировать дату в строку в формате
+        $("[data-test-id='date'] .input__control").setValue(date);
         $("[data-test-id='name'] .input__control").setValue("Анна Кочергина-Иванова-Петрова");
         $("[data-test-id='phone'] input").setValue("Hello");
         $("[data-test-id='agreement'] .checkbox__box").click();
